@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .container {
-    width: 960px;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -115,6 +115,72 @@ section {
     color: #6D86ED ;
     text-decoration: none;
 }   
+
+h2 {
+    margin-left: 20px;  
+    font-size: 30px;
+    /* text-align: left; */
+    color: slategray;
+}
+
+.form-left{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.name {
+    height: 40px;
+}
+
+.email {
+    height: 40px;
+    margin-top: 25px;
+}
+
+.form-right {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.textarea {
+    width: 99.5%;
+    height: 300px;
+    margin-top: 25px;
+}
+
+.submit {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.button {
+    width: 100%;
+    height: 40px;
+    margin-top: 25px;
+    color: white;
+    background-color: dimgray;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    height: 40px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.footer-right{
+    margin-left: 5px;
+   margin-top: 5px;
+}
+small {
+   font-size: 20px;
+}
 
 
 @media screen and (max-width: 960px) {

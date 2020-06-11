@@ -63,7 +63,7 @@ section {
     
 }
 
-.aryicles {
+.articles {
 
     margin: 0 auto;
     display: flex;
@@ -77,14 +77,16 @@ section {
 
     display: flex;
     flex-direction: column;
+    width: 30%;
+    height: 30%;
     
 
 }
 
 .article-img {
 
-    width: 300px;
-    height: 177px;
+    width: 30%;
+    height:20%;
     margin-top: 20px;
     margin-bottom: 20px;
     
@@ -92,7 +94,7 @@ section {
 
 
 
-.artycle-content {
+.article-content {
 
     font-size: 20px;
     margin-top: 5px;
@@ -156,4 +158,12 @@ section {
     }
 
 
+}
+
+.attachment-thumbnail size-thumbnail wp-post-image{
+    width: 30%;
+    height:20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
 }

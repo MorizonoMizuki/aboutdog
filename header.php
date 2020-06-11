@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <?php wp_head('title'); ?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/leset.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
     <?php wp_head(); ?>
@@ -19,7 +19,7 @@
             <?php endif; ?>
             <nav>
                 <ul class="hader-right">
-                    <li>TOP</li>
+                   <li>TOP</li>
                    <li>Latest</li>
                    <li>Contact</li>
                 </ul>

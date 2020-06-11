@@ -12,9 +12,11 @@
 <body>
   <div class="container">
         <header>
-
-    
-            <h1>About Dog</h1>
+            <?php if (wp_get_document_title()): ?>
+               <?php echo wp_get_document_title(); ?>
+            <?php elseif (p_get_document_title()): ?>
+                <h1>About Dog</h1>
+            <?php endif; ?>
             <nav>
                 <ul class="hader-right">
                     <li>TOP</li>

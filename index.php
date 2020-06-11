@@ -20,6 +20,33 @@
         
         </section>
   </div>
+
+  <aside>
+        <h2>Contact</h2>
+        <form> 
+
+            <div class="form">
+            <div class="form-left">
+                <input class="name" type="text " placeholder="お名前">
+                <input class="email" type="text" placeholder="メールアドレス">
+            </div>
+            
+                <div class="form-right" >
+                    <textarea class="textarea" placeholder="お問い合わせ内容"></textarea>
+                </div>
+            </div>
+
+            <p class="submit">
+                <input class="button" type="submit" value="送信">
+            </p>
+        </form>
+    </aside>
+    <footer>
+        <p class="footer-right">
+            <small>&copy;2019 ALL RIGHT RESERVED</small>
+        </p>
+    </footer>
+
   <?php wp_footer(); ?>
 </body>
 </html>

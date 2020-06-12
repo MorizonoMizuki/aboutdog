@@ -20,14 +20,11 @@ function mytheme_set() {
 add_action( 'after_setup_theme', 'mytheme_set' );
 
 add_theme_support( 'menus' );
-<<<<<<< HEAD
-=======
 
 // register_nav_menu( $location, $description );
 // function twpp_setup_theme() {
 //     register_nav_menu( 'header-navigation', 'Header Navigation' );
 //   }
->>>>>>> master
   
 // add_action( 'after_setup_theme', 'twpp_setup_theme' );
 // register_nav_menus( array(

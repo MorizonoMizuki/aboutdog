@@ -36,13 +36,12 @@ h1{
     
 }
 
-.dog-image {
+.dog-image img{
     margin:  0 auto;
-    background-image: url(../img/dog\ \(1\).jpg);
     width: 960px;
     height: 500px;
-    background-position: center;
-    background-size: cover; 
+    display: flex;
+    justify-content: center;
 }
 
 section {

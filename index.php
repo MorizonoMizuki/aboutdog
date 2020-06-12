@@ -1,13 +1,17 @@
 <?php get_header(); ?>
 
-        <section class="dog-image"></section>
-
+        <section class="dog-image">
+        <?php if(get_header_image()): ?>
+            <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
+        <?php else: ?>
+            <img src="<?php echo get_template_directory_uri(); ?>/img/dog.jpg" alt="">
+        <?php endif; ?>
+       </section>
+        
         <section>
-
 
         <?php if (have_posts() ): ?>
            <h2 class="sub-title">Latest</h2>
-
             <ul class="articles">
 
                 <?php while( have_posts() ): the_post(); ?>
@@ -35,7 +39,7 @@
   </div>
 
   <aside>
-        <h2>Contact</h2>
+        <h2> Contact</h2>
         <form> 
 
             <div class="form">

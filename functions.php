@@ -20,15 +20,10 @@ function mytheme_set() {
 add_action( 'after_setup_theme', 'mytheme_set' );
 
 add_theme_support( 'menus' );
-
-register_nav_menu( $location, $description );
-function twpp_setup_theme() {
-    register_nav_menu( 'header-navigation', 'Header Navigation' );
-  }
   
-add_action( 'after_setup_theme', 'twpp_setup_theme' );
-register_nav_menus( array(
-    'header-navigation' => 'Header Navigation',
-    'footer-navigation' => 'Footer Navigation',
-    'social-links'      => 'Social Links',
-  ) );
+// add_action( 'after_setup_theme', 'twpp_setup_theme' );
+// register_nav_menus( array(
+//     'header-navigation' => 'Header Navigation',
+//     'footer-navigation' => 'Footer Navigation',
+//     'social-links'      => 'Social Links',
+//   ) );

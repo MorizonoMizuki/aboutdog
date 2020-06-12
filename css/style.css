@@ -118,9 +118,10 @@ section {
 }   
 
 h2 {
-    margin-left: 20px;  
+    margin-left: 20px; 
+    margin-top: 50px; 
     font-size: 30px;
-    /* text-align: left; */
+    text-align: center;
     color: slategray;
 }
 
@@ -128,7 +129,7 @@ h2 {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 70%;
+    width: 600px;
 }
 
 .name {
@@ -141,23 +142,23 @@ h2 {
 }
 
 .form-right {
-    width: 70%;
+    width: 600px;
     margin: 0 auto;
 }
 
 .textarea {
-    width: 99.5%;
+    width:600px;
     height: 300px;
     margin-top: 25px;
 }
 
 .submit {
-    width: 70%;
+    width: 200px;
     margin: 0 auto;
 }
 
 .button {
-    width: 100%;
+    width: 200px;
     height: 40px;
     margin-top: 25px;
     color: white;
@@ -204,7 +205,25 @@ small {
         margin-left: 20px;
     }
 
+    .form-left{
+        width: 70%;
+    }
 
+    .form-right {
+        width:  70%;
+    }
+
+    .textarea {
+        width:99.4%;
+    }
+
+    .submit {
+        width: 50%;
+    }
+    
+    .button {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 600px) {
